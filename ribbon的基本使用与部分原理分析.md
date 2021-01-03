@@ -33,4 +33,4 @@ public String getUserInfo(String userId) {
 ## RestTemplate 的构造
 首先我们应该考虑为什么@LoadBalanced会为RestTemplate赋予负载均衡的功能？ @LoadBalanced是SpringCloud-commons包内定义的，相当于给外部集成留了一个口子。那@LoadBalanced是如何作用到RestTemplate上的呢？
 RestTemplate的继承体系如下 :
-
+![RestTemplate](https://github.com/FreelyMajorParus/Note/blob/main/images/DFC55ED9-D67D-42BD-8D56-50766E111F02.png)
